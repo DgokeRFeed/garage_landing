@@ -1,0 +1,22 @@
+.main-block {
+  height: 600px;
+  width: 100%;
+  margin-top: 100px;
+  background-image: linear-gradient(rgba(27, 128, 208, 0.8), rgba(27, 128, 208, 0.8)),
+              url("../images/garage-main-header-1.jpg");
+  background-attachment: scroll, fixed;
+  background-size: cover;
+}
+
+.column {
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-block .title-main {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  float: right;
+}

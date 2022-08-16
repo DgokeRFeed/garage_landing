@@ -1,0 +1,27 @@
+.request-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.request-form {
+  width: 400px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1.2em;
+  border-radius: 10px;
+  background-color: #9ae0ff;
+}
+
+.request-button {
+  margin-top: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.input-text {
+  font-size: 1em;
+}

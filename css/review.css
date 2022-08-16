@@ -1,0 +1,18 @@
+.review-card {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-image {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.review-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+}

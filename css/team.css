@@ -1,0 +1,26 @@
+.team-card {
+  margin: 50px 10px 0 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.team-image {
+  float: right;
+}
+
+.team-photo {
+  width: 250px;
+  border-radius: 100%;
+  border: 2px solid #cccccc;
+}
+
+.team-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.team-description-width {
+  max-width: 90%;
+}
