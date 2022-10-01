@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+  <title>ГараЖИ ЕСТЬ</title>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,7 +17,8 @@
   <link rel="stylesheet" href="css/review.css">
   <link rel="stylesheet" href="css/request.css">
 
-  <title>ГараЖИ ЕСТЬ</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="parallax.js-1.5.0/parallax.min.js"></script>
 </head>
 <body>
   <div class="header">
@@ -43,7 +46,11 @@
     </div>
   </div>
 
-  <div id="main" class="main-block">
+  <div id="main" class="main-block"
+    data-parallax="scroll"
+    data-image-src="images/garage-main-header.jpg" 
+    data-android-fix="false"
+    data-ios-fix="false">
     <div class="container">
       <div class="column wrapper">
         <h1 class="title-main">Универсальные помещения под любые нужды по гарантировано низким ценам!</h1>
