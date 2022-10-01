@@ -19,5 +19,12 @@
   font-size: 3em;
   color: white;
   float: right;
+  flew-wrap: wrap;
+}
+
+@media (max-width: 1000px) {
+  .main-block {
+    margin-top: 0;
+  }
 }
 
