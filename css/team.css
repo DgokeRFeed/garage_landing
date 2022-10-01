@@ -28,3 +28,10 @@
     width: 100%;
   }
 }
+
+@media (max-width: 400px) {
+  .team-photo {
+    width: 100px;
+    height: 100px;
+  }
+}
