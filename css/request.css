@@ -1,13 +1,18 @@
+#request .wrapper {
+  justify-content: space-around;
+}
+
 .request-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 100px;
+/*  padding-left: 100px;*/
 }
 
 .request-form {
   width: 400px;
   padding: 30px;
+  margin-left: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -24,4 +29,23 @@
 
 .input-text {
   font-size: 1em;
+}
+
+.form-center {
+
+}
+
+@media (max-width:  1000px) {
+  #request {
+    justify-content: center;
+  }
+
+  .request-form {
+    margin-left: 0;
+  }
+
+  .form-center {
+    display: flex;
+    justify-content: center;
+  }
 }
