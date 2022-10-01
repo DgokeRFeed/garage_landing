@@ -49,3 +49,13 @@
     justify-content: center;
   }
 }
+
+@media (max-width:  600px) {
+  .request-form {
+    max-width: 100%;
+  }
+
+  .request-button {
+    
+  }
+}

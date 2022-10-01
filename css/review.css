@@ -28,3 +28,9 @@
     padding-left: 0;
   }
 }
+
+@media (max-width: 600px) {
+  .review-image {
+    max-width: 100%;
+  }
+}

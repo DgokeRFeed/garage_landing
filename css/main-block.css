@@ -28,3 +28,12 @@
   }
 }
 
+@media (max-width: 600px) {
+  .main-block {
+    height: 400px;
+  }
+
+  .main-block .title-main{
+    font-size: 2em;
+  }
+}

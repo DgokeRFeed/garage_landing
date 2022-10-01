@@ -50,8 +50,9 @@ a:hover {
 
 @media (max-width: 1000px) {
   .header {
+    padding-top: 10px;
     position: relative;
-    height: 120px;
+    height: 130px;
   }
 
   .header .container {
@@ -63,7 +64,7 @@ a:hover {
 @media (max-width: 600px) {
   .header {
     position: relative;
-    height: 180px;
+    height: 190px;
   }
 
   .header-logo {
