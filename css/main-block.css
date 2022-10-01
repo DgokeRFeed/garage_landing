@@ -12,6 +12,7 @@
   height: inherit;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .main-block .title-main {
@@ -19,6 +20,7 @@
   font-size: 3em;
   color: white;
   float: right;
+  flew-wrap: wrap;
 }
 
 @media (max-width: 1000px) {
