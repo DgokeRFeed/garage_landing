@@ -10,11 +10,13 @@
 
 .team-photo {
   width: 150px;
+  height: 150px;
   border-radius: 100%;
   border: 2px solid #cccccc;
 }
 
 .team-description {
+  width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,4 +25,10 @@
 
 .team-description-width {
   max-width: 90%;
+}
+
+@media (max-width: 1000px) {
+  .team-description {
+    width: 100%;
+  }
 }
